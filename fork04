@@ -29,7 +29,7 @@ int main(void) {
 	}
 		/* kode ini dieksekusi baik oleh proses parent dan child */
 		cout << "I am a happy, healthy process and my pid = " << getpid() << endl;
-		if (child_pid == 0) {
+	if (child_pid == 0) {
 		/* kode ini hanya dieksekusi oleh proses child */
 		cout << "I am a child and I am quitting work now!"<< endl;
 	}
