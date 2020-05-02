@@ -1,4 +1,8 @@
-#include <iostream> using namespace std; #include <sys/types.h> #include <unistd.h> #include <sys/wait.h>
+#include <iostream> 
+using namespace std; 
+#include <sys/types.h> 
+#include <unistd.h> 
+#include <sys/wait.h>
 
 /* pid_t fork() dideklarasikan pada unistd.h.
 pid_t adalah type khusus untuk process id yg ekuivalen dg int
